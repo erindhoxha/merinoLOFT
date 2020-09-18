@@ -1,0 +1,23 @@
+.orange-border {
+    width:100%;
+    height:50px;
+    border-top: 1px solid $orange;
+    margin-top:30px;
+    max-width:90%;
+    margin:30px auto;
+}
+section {
+    max-width:1040px;
+    margin:0 auto;
+}
+.three-column-layout {
+    height:400px;
+    .column {
+        width:33.3%;
+        background-color:white;
+        outline:1px inset black;
+        float:left;
+        display:block;
+        height:100%;
+    }
+}

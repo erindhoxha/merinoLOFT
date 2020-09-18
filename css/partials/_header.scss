@@ -1,0 +1,18 @@
+.header {
+    background-image:url('https://images.pexels.com/photos/2365457/pexels-photo-2365457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    .tm-after:after {
+        content:'TM';
+        font-size:13px;
+        position:absolute;
+    }
+    .header-content {
+        color:white;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
