@@ -1,50 +1,82 @@
-.header {
-  background-image: url("https://images.pexels.com/photos/2365457/pexels-photo-2365457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - Sofia Pro ExtraLight.otf");
+  font-weight: 200;
 }
-.header .tm-after:after {
-  content: "TM";
-  font-size: 13px;
-  position: absolute;
-  top: 0;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - Sofia Pro ExtraLight Italic.otf");
+  font-weight: 200;
+  font-style: italic;
 }
-.header .header-content {
-  color: white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProLight-Italic.otf");
+  font-weight: 300;
+  font-style: italic;
 }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProLight.otf");
+  font-weight: 300;
 }
-
-h1 {
-  font-size: 3em;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProRegular.otf");
+  font-weight: 400;
 }
-
-h2 {
-  font-size: 2em;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProRegular-Italic.otf");
+  font-weight: 400;
+  font-style: italic;
 }
-
-h3 {
-  font-size: 1.5em;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - Sofia Pro Medium.otf");
+  font-weight: 500;
 }
-
-h4 {
-  font-size: 1em !important;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProMedium-Italic.otf");
+  font-weight: 500;
+  font-style: italic;
 }
-
-.orange-border {
-  width: 100%;
-  height: 30px;
-  border-top: 1px solid orange;
-  margin-top: 30px;
-  max-width: 90%;
-  margin: 30px auto 0px auto;
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProSemiBold.otf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaProSemiBold-Italic.otf");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - Sofia Pro Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../../assets/fonts/Mostardesign - SofiaPro-Bold.otf");
+  font-weight: 800;
+}
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+body {
+  font-family: "SofiaPro";
+  color: #343230;
 }
 
 section {
@@ -52,10 +84,216 @@ section {
   margin: 0 auto;
 }
 
-.images-layout img {
-  max-width: 100%;
+.header {
+  background-image: url("../assets/images/compressed/LOCATION-FW17-MOUNTAINS-SUNRISE-ALEXSTROHL-7559.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
-.images-layout h4 {
+.header .header-content {
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+.header .tm {
+  font-size: 14px;
+  position: absolute;
+  top: -9px;
+  right: -20px;
+  letter-spacing: 1px;
+}
+.header .down-arrow {
+  z-index: 2;
+  position: absolute;
+  bottom: 20px;
+  max-width: 25px;
+  width: 25px;
+  cursor: pointer;
+  animation: float 6s ease-in-out infinite;
+}
+.header .down-arrow svg {
+  fill: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .xs-heading {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.3px;
+  }
+
+  .small-heading {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+
+  .medium-heading {
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+  }
+
+  .large-heading {
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 3px;
+  }
+
+  .xl-heading {
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 1px;
+  }
+
+  .xxl-heading {
+    font-size: 45px;
+    line-height: 51px;
+    letter-spacing: 5px;
+  }
+
+  .xxxl-heading {
+    font-size: 55px;
+    line-height: 61px;
+    letter-spacing: 9px;
+  }
+
+  .xs-text {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .xs-heading {
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .small-heading {
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.4px;
+  }
+
+  .medium-heading {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+  }
+
+  .xl-heading {
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 1px;
+  }
+
+  .xxl-heading {
+    font-size: 45px;
+    line-height: 51px;
+    letter-spacing: 5px;
+  }
+
+  .xxxl-heading {
+    font-size: 55px;
+    line-height: 61px;
+  }
+
+  .xs-text {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+  }
+}
+.light {
+  font-weight: 200 !important;
+}
+
+.regular {
+  font-weight: 300 !important;
+}
+
+.medium {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 500 !important;
+}
+
+.extra-bold {
+  font-weight: 600 !important;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.btn-text {
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+}
+
+.orange-border {
+  width: 100%;
+  height: 60px;
+  border-top: 1px solid #FF6600;
+  margin-top: 30px;
+  max-width: 100%;
+  margin: 60px auto 0px auto;
+}
+
+.container {
+  max-width: 1400px;
+}
+
+.three-cards-layout .card-global {
+  max-height: 300px;
+  height: 300px;
+}
+.three-cards-layout .card-1 {
+  background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_2.jpg");
+  background-size: cover;
+  background-position: 20% 50%;
+  cursor: pointer;
+}
+.three-cards-layout .card-1:hover {
+  opacity: 0.9;
+}
+.three-cards-layout .card-2 {
+  background-image: url("../assets/images/compressed/_66A1237.jpg");
+  background-repeat: no-repeat;
+  background-position: center left;
+  cursor: pointer;
+}
+.three-cards-layout .card-2:hover {
+  opacity: 0.9;
+}
+.three-cards-layout .card-3 {
+  background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_4_flipped.jpg");
+  background-repeat: no-repeat;
+  background-position: 72% 31%;
+  background-size: cover;
+  cursor: pointer;
+}
+.three-cards-layout .card-3:hover {
+  opacity: 0.9;
+}
+.three-cards-layout p {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -63,23 +301,86 @@ section {
   color: white;
   width: 100%;
   text-align: center;
+  font-weight: 200;
+}
+.three-cards-layout div {
+  transition: 0.2s ease-in-out;
+  max-height: 400px;
+  height: 100%;
 }
 
-.three-column-layout {
-  height: 300px;
-  margin-bottom: 30px;
+.contain {
+  max-width: 1080px;
+  margin: 40px auto 20px auto;
 }
-.three-column-layout .column {
-  background-image: url("https://images.pexels.com/photos/5198585/pexels-photo-5198585.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
-  width: 33.3%;
-  background-color: white;
-  float: left;
-  display: block;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.contain p {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.full-width-image {
+  height: 400px;
+  width: 100%;
+  background-image: url(../assets/images/compressed/MEN-FW17-LOCATION-HYPERIA-LITE--103871401_1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  position: relative;
+}
+.full-width-image button {
+  position: absolute;
+  text-transform: uppercase;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  bottom: 0;
+  border: none;
+}
+
+.pure-white-btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 0px;
+  font-weight: 400;
+  color: #343230;
+  padding: 10px 30px;
+  transition: 0.2s ease-in-out;
+}
+.pure-white-btn:active, .pure-white-btn:focus {
+  outline: 0;
+  border: none;
+}
+.pure-white-btn:hover {
+  background-color: #FF6600;
   color: white;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide .swiper-card {
+  max-width: 100%;
+}
+.swiper-slide .swiper-card img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

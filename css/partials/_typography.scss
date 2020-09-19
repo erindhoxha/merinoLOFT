@@ -1,15 +1,120 @@
+// created font with https://www.fontsquirrel.com/tools/webfont-generator
+
 h1, h2, h3, h4, h5, h6 {
     margin:0;
 }
-h1 {
-    font-size:3em;
+@media only screen and (min-width:768px) {
+    .xs-heading {
+        font-size:15px;
+        line-height:19px;
+        letter-spacing:0.3px;
+    }
+    .small-heading {
+        font-size:20px;
+        line-height:24px;
+        letter-spacing:0.3px;
+    }
+    .medium-heading {
+        font-size:25px;
+        line-height:29px;
+        letter-spacing:0.3px;
+    }
+    .large-heading {
+        font-size:30px;
+        line-height:29px;
+        letter-spacing:3px;
+    }
+    .xl-heading {
+        font-size:36px;
+        line-height:41px;
+        letter-spacing:1px;
+    }
+    .xxl-heading {
+        font-size:45px;
+        line-height:51px;
+        letter-spacing:5px;
+    }
+    .xxxl-heading {
+        font-size:55px;
+        line-height:61px;
+        letter-spacing:9px;
+    }
+    .xs-text {
+        font-size:11px;
+        line-height:14px;
+        letter-spacing:0.4px;
+    }
 }
-h2 {
-    font-size:2em;
+
+// Mobile
+
+@media only screen and (min-width:768px) {
+    .xs-heading {
+        font-size:17px;
+        line-height:21px;
+    }
+    .small-heading {
+        font-size:17px;
+        line-height:21px;
+        letter-spacing:0.4px;
+    }
+    .medium-heading {
+        font-size:22px;
+        line-height:26px;
+        letter-spacing:0.4px;
+    }
+    .xl-heading {
+        font-size:36px;
+        line-height:41px;
+        letter-spacing:1px;
+    }
+    .xxl-heading {
+        font-size:45px;
+        line-height:51px;
+        letter-spacing:5px;
+    }
+    .xxxl-heading {
+        font-size:55px;
+        line-height:61px;
+    }
+    .xs-text {
+        font-size:11px;
+        line-height:14px;
+        letter-spacing:0.4px;
+    }
 }
-h3 {
-    font-size:1.5em;
+
+// General typography styles
+
+.light {
+    font-weight:200 !important;
 }
-h4 {
-    font-size:1em !important;
+.regular {
+    font-weight:300 !important;
+}
+.medium {
+    font-weight:400 !important;;
+}
+.bold {
+    font-weight:500 !important;
+}
+.extra-bold {
+    font-weight:600 !important;
+}
+
+// Styles and transforms
+.italic {
+    font-style: italic;
+}
+.uppercase {
+    text-transform:uppercase !important;
+}
+
+// Buttons text
+
+.btn-text {
+    font-size:13px;
+    line-height:17px;
+    letter-spacing:0.6px;
+    font-weight:400;
 }

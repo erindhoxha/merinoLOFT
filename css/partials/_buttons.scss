@@ -1,0 +1,17 @@
+.pure-white-btn {
+    background-color:$pure-white;
+    border:none;
+    border-radius:0px;
+    font-weight:400;
+    color:$primary-dark;
+    padding:10px 30px;
+    transition:0.2s ease-in-out;
+    &:active, &:focus {
+        outline:0;
+        border:none;
+    }
+    &:hover {
+        background-color:$orange;
+        color:white;
+    }
+}
