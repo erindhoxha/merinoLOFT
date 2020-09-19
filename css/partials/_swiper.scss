@@ -11,6 +11,10 @@
   bottom: 0 !important;
 }
 
+.span.swiper-pagination-bullet.swiper-pagination-bullet-active:focus {
+  outline: 0;
+}
+
 .swiper-card {
   &:hover {
     transition: 0.25s ease-in-out !important;
