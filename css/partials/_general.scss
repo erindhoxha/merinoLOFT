@@ -2,8 +2,9 @@ body {
     font-family:"SofiaPro";
     color:$primary-dark;
 }
-
-section {
-    max-width:1400px;
-    margin:0 auto;
+a {
+    &:hover {
+        text-decoration:underline;
+        color:$orange;
+    }
 }

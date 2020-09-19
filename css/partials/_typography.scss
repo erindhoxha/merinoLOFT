@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 
 // Mobile
 
-@media only screen and (min-width:768px) {
+@media only screen and (max-width:768px) {
     .xs-heading {
         font-size:17px;
         line-height:21px;
@@ -60,6 +60,11 @@ h1, h2, h3, h4, h5, h6 {
     }
     .medium-heading {
         font-size:22px;
+        line-height:26px;
+        letter-spacing:0.4px;
+    }
+    .large-heading {
+        font-size:26px;
         line-height:26px;
         letter-spacing:0.4px;
     }
