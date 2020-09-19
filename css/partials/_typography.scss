@@ -1,125 +1,201 @@
 // created font with https://www.fontsquirrel.com/tools/webfont-generator
 
-h1, h2, h3, h4, h5, h6 {
-    margin:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
+
 @media only screen and (min-width:768px) {
-    .xs-heading {
-        font-size:15px;
-        line-height:19px;
-        letter-spacing:0.3px;
+  .xs-heading {
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0.8px;
+  }
+
+  .small-heading,
+  h6 {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+  }
+
+  .medium-heading,
+  h5 {
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+  }
+
+  .large-heading,
+  h4 {
+    font-size: 30px;
+    line-height: 29px;
+    letter-spacing: 3px;
+  }
+
+  .xl-heading,
+  h3 {
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 1px;
+  }
+
+  .xxl-heading,
+  h2 {
+    font-size: 45px;
+    line-height: 51px;
+    letter-spacing: 5px;
+  }
+
+  .xxxl-heading,
+  h1 {
+    font-size: 55px;
+    line-height: 61px;
+    letter-spacing: 9px;
+  }
+
+  .xs-text {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+  }
+
+  .xxs-text {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.8px;
+  }
+
+  .has-sup {
+    sup {
+      position: absolute;
+      font-size: 13px;
+      letter-spacing: 0px;
+      right: -16px;
+      top: 18px;
     }
-    .small-heading {
-        font-size:20px;
-        line-height:24px;
-        letter-spacing:0.3px;
-    }
-    .medium-heading {
-        font-size:25px;
-        line-height:29px;
-        letter-spacing:0.3px;
-    }
-    .large-heading {
-        font-size:30px;
-        line-height:29px;
-        letter-spacing:3px;
-    }
-    .xl-heading {
-        font-size:36px;
-        line-height:41px;
-        letter-spacing:1px;
-    }
-    .xxl-heading {
-        font-size:45px;
-        line-height:51px;
-        letter-spacing:5px;
-    }
-    .xxxl-heading {
-        font-size:55px;
-        line-height:61px;
-        letter-spacing:9px;
-    }
-    .xs-text {
-        font-size:11px;
-        line-height:14px;
-        letter-spacing:0.4px;
-    }
+  }
 }
 
 // Mobile
 
 @media only screen and (max-width:768px) {
-    .xs-heading {
-        font-size:17px;
-        line-height:21px;
+  .xxs-text {
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 0.8px;
+  }
+
+  .xs-heading {
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.8px;
+  }
+
+  .small-heading,
+  h6 {
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.4px;
+  }
+
+  .medium-heading,
+  h5 {
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+  }
+
+  .large-heading,
+  h4 {
+    font-size: 26px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+  }
+
+  .xl-heading,
+  h3 {
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 1px;
+  }
+
+  .xxl-heading,
+  h2 {
+    font-size: 35px;
+    line-height: 51px;
+    letter-spacing: 5px;
+  }
+
+  .xxxl-heading,
+  h1 {
+    font-size: 40px;
+    line-height: 61px;
+  }
+
+  .xs-text {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.4px;
+  }
+
+  .has-sup {
+    sup {
+      position: absolute;
+      font-size: 13px;
+      letter-spacing: 0px;
+      right: -25px;
+      top: 23px;
     }
-    .small-heading {
-        font-size:17px;
-        line-height:21px;
-        letter-spacing:0.4px;
-    }
-    .medium-heading {
-        font-size:22px;
-        line-height:26px;
-        letter-spacing:0.4px;
-    }
-    .large-heading {
-        font-size:26px;
-        line-height:26px;
-        letter-spacing:0.4px;
-    }
-    .xl-heading {
-        font-size:32px;
-        line-height:41px;
-        letter-spacing:1px;
-    }
-    .xxl-heading {
-        font-size:35px;
-        line-height:51px;
-        letter-spacing:5px;
-    }
-    .xxxl-heading {
-        font-size:40px;
-        line-height:61px;
-    }
-    .xs-text {
-        font-size:11px;
-        line-height:14px;
-        letter-spacing:0.4px;
-    }
+  }
 }
 
 // General typography styles
 
 .light {
-    font-weight:200 !important;
+  font-weight: 200 !important;
 }
+
 .regular {
-    font-weight:300 !important;
+  font-weight: 300 !important;
 }
+
 .medium {
-    font-weight:400 !important;;
+  font-weight: 400 !important;
 }
+
 .bold {
-    font-weight:500 !important;
+  font-weight: 500 !important;
 }
+
 .extra-bold {
-    font-weight:600 !important;
+  font-weight: 600 !important;
 }
+
+
 
 // Styles and transforms
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
+
 .uppercase {
-    text-transform:uppercase !important;
+  text-transform: uppercase !important;
+}
+
+.line-through {
+  text-decoration: line-through;
 }
 
 // Buttons text
 
 .btn-text {
-    font-size:13px;
-    line-height:17px;
-    letter-spacing:0.6px;
-    font-weight:400;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
 }
