@@ -19,7 +19,7 @@
   <meta name="theme-color" content="#fafafa">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
@@ -56,14 +56,20 @@
   <section class="container">
     <div class="orange-border"></div>
     <div class="row three-cards-layout" id="first-section">
-        <div class="col-md-4 col-sm-12 p-0 card-1 card-global">
-          <p>MERINO INSULATION<span class="d-block">UNDER WATER</span><span class="d-block">REPELLENT SHELL</span></p>
+        <div class="col-md-4 col-sm-12 p-0 card-1 card-global" data-aos="fade-right">
+          <p>MERINO INSULATION<span class="d-block">UNDER WATER</span><span class="d-block">REPELLENT SHELL</span>
+            <span class="hover-text">Read more</span>
+          </p>
         </div>
-        <div class="col-md-4 col-sm-12 p-0 card-2 card-global">
-          <p><span class="d-block">EXTREME WARMTH</span><span class="d-block">TO WEIGHT RATIO.</span></p>
+        <div class="col-md-4 col-sm-12 p-0 card-2 card-global" data-aos="fade-up">
+          <p><span class="d-block">EXTREME WARMTH</span><span class="d-block">TO WEIGHT RATIO.</span>
+            <span class="hover-text">Read more</span>
+          </p>
         </div>
-        <div class="col-md-4 col-sm-12 p-0 card-3 card-global">
-          <p>MACHINE-WASHABLE <span class="d-block">AND A SUSTAINABLE</span> <span class="d-block">ALTERNATIVE TO DOWN.</span></p>
+        <div class="col-md-4 col-sm-12 p-0 card-3 card-global" data-aos="fade-left">
+          <p>MACHINE-WASHABLE <span class="d-block">AND A SUSTAINABLE</span> <span class="d-block">ALTERNATIVE TO DOWN.</span>
+            <span class="hover-text">Read more</span>
+          </p>
         </div>
     </div>
     <h3 class="text-center light large-heading contain mb-5 mt-5 pt-3">LIGHTER AND WARMER, MERINOLOF T™ IS THE LOW-BULK ,
@@ -74,7 +80,9 @@
   <!-- Section full width -->
   <secton class="container-fluid">
     <div class="full-width-image">
-      <button class="pure-white-btn btn-text">Shop this look</button>
+      <div>
+        <button data-aos="fade-up" class="pure-white-btn btn-text">Shop this look</button>
+      </div>
     </div>
     <div class="contain text-center">
       <h3 class="text-center mt-5 light large-heading contain mb-4">MADE FOR ADVENTURE</h3>
@@ -85,17 +93,44 @@
     </div>
   </secton>
 
-  <section class="container">
+  <section class="container pb-4">
     <div class="swiper-container">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-            <div class="swiper-card">
+          <div class="swiper-slide">
+            <div class="swiper-card" data-aos="fade-up">
               <img src="assets/images/FW17-MEN-HELIX-LS-ZIP--103431403_1.jpg" />
               <p class="xs-heading light">WOMEN'S
                 <span class="d-block">HELIX LS ZIP HOOD</span>
                 <span class="d-block">$500.00</span>
               </p>
             </div>
+          </div>
+            <div class="swiper-slide">
+              <div class="swiper-card" data-aos="fade-up">
+                <img src="assets/images/FW17-MEN-HELIX-LS-ZIP--103431403_1.jpg" />
+                <p class="xs-heading light">WOMEN'S
+                  <span class="d-block">HELIX LS ZIP HOOD</span>
+                  <span class="d-block">$500.00</span>
+                </p>
+              </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-card" data-aos="fade-up">
+              <img src="assets/images/FW17-MEN-HELIX-LS-ZIP--103431403_1.jpg" />
+              <p class="xs-heading light">WOMEN'S
+                <span class="d-block">HELIX LS ZIP HOOD</span>
+                <span class="d-block">$500.00</span>
+              </p>
+            </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="swiper-card" data-aos="fade-up">
+            <img src="assets/images/FW17-MEN-HELIX-LS-ZIP--103431403_1.jpg" />
+            <p class="xs-heading light">WOMEN'S
+              <span class="d-block">HELIX LS ZIP HOOD</span>
+              <span class="d-block">$500.00</span>
+            </p>
+          </div>
         </div>
         <div class="swiper-slide">
           <div class="swiper-card">
@@ -105,30 +140,26 @@
               <span class="d-block">$500.00</span>
             </p>
           </div>
-      </div>
-      <div class="swiper-slide">
-        <div class="swiper-card">
-          <img src="assets/images/FW17-MEN-HELIX-LS-ZIP--103431403_1.jpg" />
-          <p class="xs-heading light">WOMEN'S
-            <span class="d-block">HELIX LS ZIP HOOD</span>
-            <span class="d-block">$500.00</span>
-          </p>
         </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="swiper-card">
-        <img src="assets/images/FW17-MEN-HELIX-LS-ZIP--103431403_1.jpg" />
-        <p class="xs-heading light">WOMEN'S
-          <span class="d-block">HELIX LS ZIP HOOD</span>
-          <span class="d-block">$500.00</span>
-        </p>
       </div>
-  </div>
-      </div>
-      <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
     </div>
   </section>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6">
+        <h3>
+          "THE AIM WAS TO DESIGN A PRODUCT THAT AT IT'S CORE REFLECTED OUR ROOTS IN MERINOLOFAND BRING A NEW LEVEL OF COLD WEATHER PERFORMANCE AND INSULATION THAT IS
+            HIGHLY FUNCTIONAL AND EXTREMELY VERSATILE"
+        </h3>
+        <p class="author">SENIOR GLOBAL PRODUCT DESIGNER</p>
+        <a href="#" class="orange">LEARN MORE</a>
+      </div>
+      </div>
+    </div>
+  </section>
+
   <script src="js/jquery/jquery-3.1.0.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
@@ -136,6 +167,7 @@
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/custom-js/swiper.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
@@ -143,6 +175,10 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

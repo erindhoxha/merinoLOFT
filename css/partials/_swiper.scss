@@ -2,7 +2,12 @@
     width: 100%;
     height: 100%;
   }
-
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background:$orange;
+  }
+  .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+      bottom:0 !important;
+  }
   .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -23,8 +28,10 @@
     align-items: center;
     .swiper-card {
         img {
-            max-width:100%;
+            max-width: 250px;
+            width: 100%;
         }
+        cursor:pointer;
         max-width:100%;
     }
   }

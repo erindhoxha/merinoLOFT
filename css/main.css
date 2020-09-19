@@ -93,6 +93,7 @@ section {
   align-items: center;
   justify-content: center;
   position: relative;
+  max-height: 900px;
 }
 .header .header-content {
   color: #fff;
@@ -265,6 +266,21 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 300px;
   height: 300px;
 }
+.three-cards-layout .card-global .hover-text {
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  text-decoration: underline;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+}
+.three-cards-layout .card-global:hover {
+  opacity: 0.9 !important;
+}
+.three-cards-layout .card-global:hover .hover-text {
+  opacity: 1;
+}
 .three-cards-layout .card-1 {
   background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_2.jpg");
   background-size: cover;
@@ -327,12 +343,14 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 .full-width-image button {
-  position: absolute;
   text-transform: uppercase;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  bottom: 0;
   border: none;
+}
+.full-width-image div {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
 }
 
 .pure-white-btn {
@@ -342,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #343230;
   padding: 10px 30px;
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out !important;
 }
 .pure-white-btn:active, .pure-white-btn:focus {
   outline: 0;
@@ -356,6 +374,14 @@ h1, h2, h3, h4, h5, h6 {
 .swiper-container {
   width: 100%;
   height: 100%;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #FF6600;
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
+  bottom: 0 !important;
 }
 
 .swiper-slide {
@@ -377,10 +403,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 .swiper-slide .swiper-card {
+  cursor: pointer;
   max-width: 100%;
 }
 .swiper-slide .swiper-card img {
-  max-width: 100%;
+  max-width: 250px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
