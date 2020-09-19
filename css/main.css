@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 .three-cards-layout .card-1 {
-  background-image: url("assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_2.jpg");
+  background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_2.jpg");
   background-size: cover;
   background-position: 20% 50%;
   cursor: pointer;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 .three-cards-layout .card-2 {
-  background-image: url("assets/images/compressed/thread.jpg");
+  background-image: url("../assets/images/compressed/thread.jpg");
   background-repeat: no-repeat;
   background-position: center left;
   cursor: pointer;
@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 .three-cards-layout .card-3 {
-  background-image: url("assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_4_flipped.jpg");
+  background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_4_flipped.jpg");
   background-repeat: no-repeat;
   background-position: 72% 31%;
   background-size: cover;
