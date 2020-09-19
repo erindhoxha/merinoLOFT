@@ -1,66 +1,66 @@
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - Sofia Pro ExtraLight.otf");
+  src: url("../assets/fonts/Mostardesign - Sofia Pro ExtraLight.otf");
   font-weight: 200;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - Sofia Pro ExtraLight Italic.otf");
+  src: url("../assets/fonts/Mostardesign - Sofia Pro ExtraLight Italic.otf");
   font-weight: 200;
   font-style: italic;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProLight-Italic.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProLight-Italic.otf");
   font-weight: 300;
   font-style: italic;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProLight.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProLight.otf");
   font-weight: 300;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProRegular.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProRegular.otf");
   font-weight: 400;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProRegular-Italic.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProRegular-Italic.otf");
   font-weight: 400;
   font-style: italic;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - Sofia Pro Medium.otf");
+  src: url("../assets/fonts/Mostardesign - Sofia Pro Medium.otf");
   font-weight: 500;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProMedium-Italic.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProMedium-Italic.otf");
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProSemiBold.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProSemiBold.otf");
   font-weight: 600;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaProSemiBold-Italic.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaProSemiBold-Italic.otf");
   font-weight: 600;
   font-style: italic;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - Sofia Pro Bold.otf");
+  src: url("../assets/fonts/Mostardesign - Sofia Pro Bold.otf");
   font-weight: 700;
 }
 @font-face {
   font-family: "SofiaPro";
-  src: url("../../assets/fonts/Mostardesign - SofiaPro-Bold.otf");
+  src: url("../assets/fonts/Mostardesign - SofiaPro-Bold.otf");
   font-weight: 800;
 }
 @keyframes float {
@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 .three-cards-layout .card-1 {
-  background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_2.jpg");
+  background-image: url("assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_2.jpg");
   background-size: cover;
   background-position: 20% 50%;
   cursor: pointer;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 .three-cards-layout .card-2 {
-  background-image: url("../assets/images/compressed/_66A1237.jpg");
+  background-image: url("assets/images/compressed/thread.jpg");
   background-repeat: no-repeat;
   background-position: center left;
   cursor: pointer;
@@ -300,7 +300,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.9;
 }
 .three-cards-layout .card-3 {
-  background-image: url("../assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_4_flipped.jpg");
+  background-image: url("assets/images/compressed/MEN-FW17-HYPERIA-LITE-JACKET--103871401_4_flipped.jpg");
   background-repeat: no-repeat;
   background-position: 72% 31%;
   background-size: cover;
