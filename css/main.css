@@ -451,9 +451,9 @@ h1 {
 }
 .look-collection img {
   width: 50px;
-  background-color: rgba(118, 115, 112, 0.4);
+  background-color: rgba(0, 0, 0, 0.4);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.281);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 5px;
   margin-right: 2px;
   margin-left: 2px;
