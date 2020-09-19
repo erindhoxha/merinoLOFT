@@ -1,23 +1,28 @@
 body {
-    font-family:"SofiaPro";
-    color:$primary-dark;
+  font-family: "SofiaPro";
+  color: $primary-dark;
+  overflow-x: hidden;
 }
+
 a {
-    &:hover {
-        text-decoration:underline;
-        color:$orange;
-    }
+  &:hover {
+    text-decoration: underline;
+    color: $orange;
+  }
 }
 
 .p-relative {
-    position:relative;
+  position: relative;
 }
 
 ::selection {
-    background: $orange; /* WebKit/Blink Browsers */
-    color:white;
-  }
-  ::-moz-selection {
-    background: $orange; /* Gecko Browsers */
-    color:white;
-  }
+  background: $orange;
+  /* WebKit/Blink Browsers */
+  color: white;
+}
+
+::-moz-selection {
+  background: $orange;
+  /* Gecko Browsers */
+  color: white;
+}
