@@ -88,6 +88,18 @@ a:hover {
   position: relative;
 }
 
+::selection {
+  background: #FF6600;
+  /* WebKit/Blink Browsers */
+  color: white;
+}
+
+::-moz-selection {
+  background: #FF6600;
+  /* Gecko Browsers */
+  color: white;
+}
+
 .header {
   background-image: url("../assets/images/compressed/LOCATION-FW17-MOUNTAINS-SUNRISE-ALEXSTROHL-7559.jpg");
   background-size: cover;
@@ -107,7 +119,7 @@ a:hover {
 .header .tm {
   font-size: 14px;
   position: absolute;
-  top: -9px;
+  top: -12px;
   right: -20px;
   letter-spacing: 1px;
 }

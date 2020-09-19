@@ -12,3 +12,12 @@ a {
 .p-relative {
     position:relative;
 }
+
+::selection {
+    background: $orange; /* WebKit/Blink Browsers */
+    color:white;
+  }
+  ::-moz-selection {
+    background: $orange; /* Gecko Browsers */
+    color:white;
+  }
