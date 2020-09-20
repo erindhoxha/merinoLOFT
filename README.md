@@ -1,3 +1,5 @@
+- Type npm run scss to run sass watch
+
 # Rationale ways of thinking:
 
 ## Step 1: 
